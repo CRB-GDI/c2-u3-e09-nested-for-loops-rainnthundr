@@ -28,9 +28,13 @@
                 Console.Write("whats the row width?: ");
                 int z = int.Parse(Console.ReadLine());
 
-                for (int rowWidth = 0; rowWidth < z; rowWidth--)
+                //setting up the loop and trying to make it work >:[
+                for (int rowWidth = 0; rowWidth < z; rowWidth++)
                 {
-                    Console.Write("*");
+                    for (int rowLength = z; rowLength < z; rowLength--)
+                    {
+                        Console.Write("*");
+                    }
                 }
                 Console.WriteLine();
             }
