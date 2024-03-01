@@ -29,9 +29,9 @@
                 int z = int.Parse(Console.ReadLine());
 
                 //setting up the loop and trying to make it work according to the problem >:[
-                for (int rowWidth = 1; rowWidth < z; rowWidth++)
+                for (int rowWidth = 0; rowWidth < z; rowWidth++)
                 {
-                    for (int rowLength = 0; rowLength < rowWidth; rowLength++)
+                    for (int rowLength = 0; rowLength <= rowWidth; rowLength++)
                     {
                         Console.Write("*");
                     }
