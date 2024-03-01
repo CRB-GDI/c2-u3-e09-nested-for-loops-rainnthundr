@@ -24,14 +24,14 @@
 
             {
                 //Problem 2
-                //prompting the number of rows
+                //prompting the width of rows
                 Console.Write("whats the row width?: ");
                 int z = int.Parse(Console.ReadLine());
 
-                //setting up the loop and trying to make it work >:[
-                for (int rowWidth = 0; rowWidth < z; rowWidth--)
+                //setting up the loop and trying to make it work according to the problem >:[
+                for (int rowWidth = 1; rowWidth < z; rowWidth++)
                 {
-                    for (int rowLength = 0; rowLength <= z; rowLength--)
+                    for (int rowLength = 0; rowLength < rowWidth; rowLength++)
                     {
                         Console.Write("*");
                     }
