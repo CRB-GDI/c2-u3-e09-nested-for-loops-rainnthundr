@@ -31,7 +31,7 @@
                 //setting up the loop and trying to make it work >:[
                 for (int rowWidth = 0; rowWidth < z; rowWidth++)
                 {
-                    for (int rowLength = z; rowLength < z; rowLength--)
+                    for (int rowLength = 0; rowLength <= z; rowLength--)
                     {
                         Console.Write("*");
                     }
