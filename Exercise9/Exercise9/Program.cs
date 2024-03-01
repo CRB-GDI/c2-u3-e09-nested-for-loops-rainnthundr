@@ -29,7 +29,7 @@
                 int z = int.Parse(Console.ReadLine());
 
                 //setting up the loop and trying to make it work >:[
-                for (int rowWidth = 0; rowWidth < z; rowWidth++)
+                for (int rowWidth = 0; rowWidth < z; rowWidth--)
                 {
                     for (int rowLength = 0; rowLength <= z; rowLength--)
                     {
